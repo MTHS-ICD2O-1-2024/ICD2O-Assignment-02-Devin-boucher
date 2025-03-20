@@ -16,7 +16,7 @@ function Calculate() {
 
   // Validate inputs
   if (isNaN(lengthA) || isNaN(lengthB) || isNaN(height)) {
-    resultDisplay.innerHTML = "Please enter numbers for all fields.";
+    resultDisplay.innerHTML = "Please enter valid numbers for all fields.";
     resultDisplay.style.color = "Black";
     return;
   }
